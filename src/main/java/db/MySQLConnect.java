@@ -6,16 +6,16 @@ import java.sql.SQLException;
 
 public class MySQLConnect {
     private static final String URL = "jdbc:mysql://localhost:3306/couples?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "haemin47727";
-    private static final String PASSWORD = "So11539094!";
+    private static final String USER = "your-username";
+    private static final String PASSWORD = "your-password";
 
     public static Connection getConnection() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); // ✅ Add this line
             return DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/couples?useSSL=false&serverTimezone=UTC",
-                    "haemin47727",
-                    "So11539094!"
+                    "your-username",
+                    "your-password"
             );
         } catch (Exception e) {
             e.printStackTrace();
