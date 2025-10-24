@@ -22,5 +22,4 @@ public class MySQLConnect {
             return null;
         }
     }
-
     }

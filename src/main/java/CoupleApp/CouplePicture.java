@@ -6,8 +6,6 @@ public class CouplePicture {
     private String imagePath;
     private boolean isPublic;
 
-    // Getters and setters...
-
     public int getId() {
         return id;
     }

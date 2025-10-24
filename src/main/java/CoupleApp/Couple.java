@@ -21,7 +21,6 @@ public class Couple {
         this.birthday = java.sql.Date.valueOf(birthday); // Converts String to java.sql.Date
         this.status = status;
     }
-// Getters and setters...
 
     public int getId() {
         return id;

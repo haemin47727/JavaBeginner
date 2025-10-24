@@ -7,8 +7,6 @@ public class Interest {
     private String value;
     private boolean isPublic;
 
-    // Getters and setters...
-
     public int getId() {
         return id;
     }

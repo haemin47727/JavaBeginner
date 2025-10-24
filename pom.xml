@@ -10,7 +10,7 @@
     <packaging>war</packaging>
 
     <dependencies>
-        <!-- ✅ Servlet API for HttpServlet, WebServlet, etc. -->
+        <!-- Servlet API for HttpServlet, WebServlet, etc. -->
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
@@ -18,7 +18,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- ✅ MySQL JDBC driver -->
+        <!-- MySQL JDBC driver -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>

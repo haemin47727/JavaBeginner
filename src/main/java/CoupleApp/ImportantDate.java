@@ -9,8 +9,6 @@ public class ImportantDate {
     private java.sql.Date dateValue;
     private boolean isPublic;
 
-    // Getters and setters...
-
     public int getId() {
         return id;
     }
