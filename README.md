@@ -41,5 +41,14 @@ How It Works
 - ✅ Frontend built with Expo for mobile app integration
 :https://github.com/haemin47727/coupling
 
+## 🗃️ Database Setup
 
+To recreate the MySQL database:
+
+1. Open MySQL Workbench or your preferred client
+2. Create a new database (e.g., `coupling_db`)
+3. Import the file from `/database/coupling.sql`
+
+```sql
+SOURCE /path/to/coupling.sql;
 
