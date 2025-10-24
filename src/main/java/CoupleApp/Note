@@ -1,0 +1,40 @@
+This is my first Java project where I aim to make a mobile app for couples called 'Coupling'.
+This app aims to help couples feel more appreciated from one another without unintentionally
+forgetting about what each other's interests, dislikes, favorites and important dates are.
+The app also acts as a cheatsheet for people who forgot about certain things about their partner.
+In the future, the app is aimed to be developed into the couples' social media with
+profit gained from couple events and products, and possibly from additional couple features, and
+ the app would store history of previous couples after the couples are no longer together.
+ For now, I want it to be not an online app where they can
+see other couples, ads and other people's profile, but just an app for couples to use.
+
+Below it will include details for the future where an online feature is included.
+
+The app uses id as the primary key to login and assigns one person as the partner.
+Each person has own profile with profile picture, their partner, couple pictures (if uploaded if not blank),
+interests, dislikes, favorites, important dates, emoji to possibly indicate current mood,
+short status, and location that is only shared with their partner.
+
+profile picture, id, partner (with link) are shown to public while couple pictures,
+interests, dislikes, favorites, important dates, emoji and status can be chosen to be
+private or public. location is only shared with their partner and will only have the option of
+'home' or 'work' without the exact location by setting certain location as 'home' and 'work'.
+
+required personal info are legal name (option to be shown in profile), email (Primary Key),
+birthday (option to be shown in profile), id (will show in profile),
+partner's id (when clicked will be directed to the partner's profile),
+interests (wanting to try : food, movie, hobby, restaurant, country, gift),
+dislikes (food, movie, music, hobby, turn-offs, pet-peeves),
+favorite (food, movie, music, event, restaurant, gift)
+important dates (anniversary, birthday, custom dates)
+emoji (basic emoji next to profile pic. just basic emoji faces no words).
+
+Everything in the app has to be not against any copyright.
+
+Minimum Viable Product :
+MVP Features:
+- User registration with email (primary key), name, birthday, and partner ID
+- Profile with interests, dislikes, favorites, important dates, emoji, and status
+- Privacy flags for each field (public/private)
+- Location (home/work) shared only with partner
+- Simple CLI or desktop UI (Java Swing or JavaFX)
